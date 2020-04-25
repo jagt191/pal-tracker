@@ -5,7 +5,7 @@ applications:
     routes:
       - route: pal-tracker-7fedcb9d-b26c-406a-b88e-c6b9fa6dee9a.cfapps.io
     env:
-      WELCOME_MESSAGE: Hello from the review environment.
+      WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
       DOMAIN: cfapps.io
       UNIQUE_IDENTIFIER: 7fedcb9d-b26c-406a-b88e-c6b9fa6dee9a
