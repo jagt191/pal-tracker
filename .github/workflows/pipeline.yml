@@ -74,6 +74,7 @@ jobs:
         cf api "$CF_API_URL"
         cf auth
         cf target -o "$CF_ORG" -s "$CF_SPACE"
+        chmod +x ./scripts/migrate-databases.sh
         scripts/migrate-databases.sh pal-tracker .
       env:
         CF_API_URL: ${{ secrets.CF_API_URL }}
